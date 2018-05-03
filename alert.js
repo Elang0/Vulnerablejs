@@ -1,6 +1,5 @@
 function myFunction() {
-    var x = document.getElementById("demo");
-    x.style.fontSize = "25px"; 
-    x.style.color = "red"; 
     alert(2);
+    window.location.href = "https://www.example.com";
 }
+myFunction()
