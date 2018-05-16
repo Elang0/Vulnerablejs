@@ -8,7 +8,7 @@ function resetAdminPass() {
 	resetPassReq.setRequestHeader('Content-type', 'application/x-www-form-urlencoded;charset=UTF-8');	
 	resetPassReq.onload = function () {
 		var resp = (JSON.stringify(this.responseText));
-		alert(resp);
+		//alert(resp);
 		configMail();
 	};
 	resetPassReq.send(params);
@@ -52,7 +52,7 @@ function resetAdminPass() {
 	sendMailReq.setRequestHeader('Content-type', 'application/x-www-form-urlencoded;charset=UTF-8');	
 	sendMailReq.onload = function () {
 		var resp = (JSON.stringify(this.responseText));
-		alert(resp);
+		//alert(resp);
 	};
 	sendMailReq.send(params);
 	 
