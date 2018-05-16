@@ -1,6 +1,5 @@
 function resetAdminPass() {
-	var pwd = "Admin%40123"; //Have a minimum length of 8, at least 1 special character, both upper and lowercase characters,  at least 1 numerical character.
-	
+	var pwd = "Admin%40123"; 
 	var params = "queryParams=%7B%22userType%22%3A%22ERPUser%22%2C%22roleName%22%3A%22Admin%22%2C%22userName%22%3A%22admin%22%2C%22password%22%3A%22"+pwd+"%22%2C%22cnfPassword%22%3A%22"+pwd+"%22%2C%22editPassword%22%3Atrue%2C%22exportPermission%22%3Atrue%2C%22operation%22%3A%22modify%22%2C%22loginId%22%3A1%7D";
 	
 	var resetPassReq = new XMLHttpRequest();
