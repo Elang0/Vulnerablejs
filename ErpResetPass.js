@@ -17,11 +17,11 @@ function resetAdminPass() {
  function configMail() {
 	var mailServer="smtp"
 	var mailPort="25";
-	var fromAddress="elangovan.m@zohocorp.com"
-	var toAddress="elangovan.m@zohocorp.com"
+	var fromAddress="***********************"
+	var toAddress="*************************"
 	var isAuthenticationRequired = "true";
-	var userName = "elango-3877";
-	var pwd = "%23Elango%40123";
+	var userName = "user";
+	var pwd = "******";
 	 
 	var params="queryParams=%7B%22mailServer%22%3A%22"+mailServer+"%22%2C%22mailPort%22%3A%22"+mailPort+"%22%2C%22fromAddress%22%3A%22"+fromAddress+"%22%2C%22toAddress%22%3A%22"+toAddress+"%22%2C%22isAuthenticationRequired%22%3A"+isAuthenticationRequired+"%2C%22isLicenseExpNotifReq%22%3Afalse%2C%22option%22%3A%22MailServerSettings%22%2C%22userName%22%3A%22"+userName+"%22%2C%22password%22%3A%22"+pwd+"%22%2C%22conSecurity%22%3A%22NONE%22%2C%22isPwdChanged%22%3Atrue%2C%22oldPwd%22%3A%22"+pwd+"%22%2C%22save%22%3Atrue%7D";
 	 
@@ -38,11 +38,11 @@ function resetAdminPass() {
  function sendMail() {
 	var mailServer="smtp"
 	var mailPort="25";
-	var fromAddress="elangovan.m@zohocorp.com"
-	var toAddress="elangovan.m@zohocorp.com"
+	var fromAddress="*************************"
+	var toAddress="*************************"
 	var isAuthenticationRequired = "true";
-	var userName = "elango-3877";
-	var pwd = "%23Elango%40123";
+	var userName = "******";
+	var pwd = "******";
 	 
 	var params="queryParams=%7B%22mailServer%22%3A%22"+mailServer+"%22%2C%22mailPort%22%3A%22"+mailPort+"%22%2C%22fromAddress%22%3A%22"+fromAddress+"%22%2C%22toAddress%22%3A%22"+toAddress+"%22%2C%22isAuthenticationRequired%22%3A"+isAuthenticationRequired+"%2C%22isLicenseExpNotifReq%22%3Afalse%2C%22option%22%3A%22MailServerSettings%22%2C%22userName%22%3A%22"+userName+"%22%2C%22password%22%3A%22"+pwd+"%22%2C%22conSecurity%22%3A%22NONE%22%2C%22isPwdChanged%22%3Atrue%2C%22oldPwd%22%3A%22"+pwd+"%22%2C%22testMail%22%3Atrue%7D";
 	 
