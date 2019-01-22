@@ -1,8 +1,8 @@
 function searchUser() {
 	var domainName = "wsm16.com";
 	var userName = "ela_vul1";
-	var pwd = "Test%401234";
-	var mailId = "elangovant15@gmail.com";
+	var pwd = "********";
+	var mailId = "********************";
 	
 	var getGUIDReq = new XMLHttpRequest();
 	getGUIDReq.open('POST', '/ModifySingleUser.do?selectedTab=admin&methodToCall=showUserResultList', true);
